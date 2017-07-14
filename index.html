@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audiolyzer</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/litegraph.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand navbar-link" style="color:rgb(255,255,255);font-size:23px;">
+                <img src="assets/img/icon.png" id="logo" /><strong>Audiolyzer</strong></a>
+            <button data-toggle="collapse" data-target="#navcol-1" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+        </div>
+    </div>
+</nav>
+    <div class = "upRow">
+<div class="tab" id="ObjFeat" >
+    <div id="objInfo" style="display:block" >
+           <h4> Info Panel  <button class="globalSet" id ="gS">Global settings
+            <span style="margin-left:2px"class="glyphicon glyphicon-cog"></span>
+            </button></h4>
+        <div id="MusicP">
+                <dl>
+                  <dt>Audio settings:</dt>
+                    <dd> Source: <button id="mUrl"><span class="glyphicon glyphicon-folder-open"></span></button>
+                    <input id="upload" type="file"  accept=".mp3,.wav, .wma, .acc, .ogg"/>
+                        <audio id="track"></audio></dd>
+                </dl>
+            </div>
+        <div id="backGround">
+                <dl>
+                  <dt>Background settings:</dt>
+
+                    <dd>Upload Image:
+                    <button id="Img"><span class="glyphicon glyphicon-folder-open"></span></button>
+                    <input id="uploadImg" style="display:none" type="file"  accept=".jpeg, .jpg, .gif, .bmp, .png, .tiff"/>
+                        <img style="display:none" id="selImg"> </dd>   
+                    <dd>Display Bkg Image:
+                        <input type="checkbox" style="cursor:pointer;margin-left:5px" id="DispImg">
+                        <br> <br>
+                        <!--we want to set background image opacity-->
+                        Loaded img opacity:<br><input type="range" id="imgSlider" value="1" step="0.1" min="0" max="1">
+                       </dd>
+                    
+                    <dd>Color:
+                      <input type="color" value="#ffffff" id="ColorBkG"></dd>
+                    <br>
+                    <dt>Relations Graph:</dt>
+                    <dd><button class="upSave" id="upLG">Load graph
+                    <span style="margin-left:2px" class="glyphicon glyphicon-upload"></span>
+                    </button>
+                     <input id="upJSON" style="display:none" type="file"  accept=".json"/>   
+                    <br>
+                        <a href="#" id="downJ" download>
+                    <button class="upSave" id="saveLG">Save graph
+                    <span class="glyphicon glyphicon-download-alt"></span>
+                    </button></a></dd>
+                </dl>
+            </div>
+        <div id="boxInf"></div>
+    </div>
+</div>
+
+ 
+ <div id="cnvs">
+    
+    </div>    
+</div>   
+    <div class="bottomRow">
+    <div id = "LiteGraph">
+        <div id="music_buttons">
+            <button class="audCon" id="play"> <img class="mB" src="assets/img/play.png">  
+                </button>
+            <button class="audCon" id="pause"> <img class="mB" src="assets/img/pause.png"> 
+                </button>
+            <button class="audCon" id="stop"> <img class="mB" src="assets/img/stop.png"> 
+                </button>
+        </div>
+        <h4 id="scene">Scene Relations Graph  
+        </h4>
+        
+        <div id ="Lgraph"> 
+        
+        </div>
+</div>
+
+                
+            
+       
+</div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Canvas.js"></script>
+    <script src="assets/js/general.js"></script>
+    <script src="assets/js/gl-matrix.js"></script>
+    <script src="assets/js/litegraph.js"></script>
+    <script src="assets/js/Nodes/audioN.js"></script>
+    <script src="assets/js/Nodes/image.js"></script>
+    <script src="assets/js/Nodes/mathNodes.js"></script>
+    <script src="assets/js/Nodes/objFeat.js"></script>
+    <script src="assets/js/Nodes/shapeNodes.js"></script>
+    <script src="assets/js/shapes.js"></script>
+</body>
+
+</html>
