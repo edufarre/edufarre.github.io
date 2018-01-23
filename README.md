@@ -41,10 +41,10 @@ Try the web application: [Audio Visualizer](https://edufarre.github.io/)
 ## Built With / Used
 
 * [Bootstrap](https://getbootstrap.com/) -  Open source toolkit for developing with HTML, CSS, and JS
-
 * [Canvas API](https://developer.mozilla.org/ca/docs/Web/API/Canvas_API) - *Element used to draw graphics via scripting in JavaScript.*
 * [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) - *Powerful and versatile system for controlling audio on the Web.*
 * [Litegraph.js](https://github.com/jagenjo/litegraph.js) - *A graph node editor similar to PureData or UDK Blueprints, it works in a HTML5 Canvas and allow to exported graphs to be included in applications.*
+* [glMatrix](http://glmatrix.net/) - *Javascript Matrix and Vector library for High Performance WebGL apps. This types of applications demand high performance vector and matrix math, which is something that Javascript doesn't provide by default.*
 
 ## Author & Tutor
 
