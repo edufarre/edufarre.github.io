@@ -4,34 +4,38 @@ The objective of this project, is to implement an online interface that allows u
 
 ## Deeper look
 
-All this project has been developed from the scratch using Bootstrap interface, without using any implemented template. 
+All this project has been developed from the scratch using Bootstrap interface, without using any implemented template. In 'Info Panel' user also has the chance to download the current graph and load later to keep working or simply sare it with other people.
+
+###Interface Layout & Possible Final Visualization
 
 ![Interface Layout](imgs/Layout.PNG "Audio Visualizer Layout")
 
-![Possible Result](imgs/VisualResult.PNG "Audio Visualizer Layout")
+![Possible Result](imgs/VisualResult.PNG "One possible result using this interface")
 
-### Examples
+## Examples
 
-## [webglstudio.org](http://webglstudio.org)
+### Using rotation and surface (as child) nodes
 
-![Layout](imgs/Layout.PNG "Audio Visualizer Layout")
+![Simple Rotation Graph](imgs/Rotation.PNG "Simple Rotation Graph")
+![RotationGif](imgs/Hex_gif.gif "RotationGif")
 
-## [webglstudio.org](http://webglstudio.org)
+### Using audio features to change shape size
 
-![Layout](imgs/Layout.PNG "Audio Visualizer Layout")
+![Simple Audio Graph](imgs/size.PNG "Simple Audio Graph")
+![SizeGif](imgs/bass_gif.gif "SizeGif")
 
-### Known Issues
+## Known Issues
 
 * Not following the properly order of applying relations when loading a previously created graph (JSON file)
 
-### Future improvements
+## Future improvements
 
 * Need to define 'Full Screen' button
 * Possibility of attaching a video as a background
 * Improvements of Image and Color nodes (lreations graph)
 * Give a bigger range of possible actions when rendering the points
 
-### Built With / Used
+## Built With / Used
 
 * [Bootstrap](https://getbootstrap.com/) -  Open source toolkit for developing with HTML, CSS, and JS
 
@@ -39,17 +43,16 @@ All this project has been developed from the scratch using Bootstrap interface, 
 * [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) - *Powerful and versatile system for controlling audio on the Web.*
 * [Litegraph.js](https://github.com/jagenjo/litegraph.js) - *A graph node editor similar to PureData or UDK Blueprints, it works in a HTML5 Canvas and allow to exported graphs to be included in applications.*
 
-### Author & Tutor
+## Author & Tutor
 
 * **Eduard Farré Puig** - *Author*
 * **Javi Agenjo** - *Tutor* - [GitHub](https://github.com/jagenjo)
 
-### License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/edufarre/edufarre.github.io/blob/master/LICENSE) file for details
 
-### Acknowledgments
+## Acknowledgments
 
 * Thanks to my tutor who supported my during all the process and helps me with this personal project.
 * Inspiration: Mix all the audio concepts knowledge learnt during my degree with one of the most used technologies, web applications, using HTML, JavaScript and CSS programming langauges.
-
