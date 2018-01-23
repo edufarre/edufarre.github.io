@@ -42,7 +42,7 @@ Try the web application: [Audio Visualizer](https://edufarre.github.io/)
 
 * [Bootstrap](https://getbootstrap.com/) -  Open source toolkit for developing with HTML, CSS, and JS
 
-* [Canvas](https://developer.mozilla.org/ca/docs/Web/API/Canvas_API) - *Element used to draw graphics via scripting in JavaScript.*
+* [Canvas API](https://developer.mozilla.org/ca/docs/Web/API/Canvas_API) - *Element used to draw graphics via scripting in JavaScript.*
 * [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) - *Powerful and versatile system for controlling audio on the Web.*
 * [Litegraph.js](https://github.com/jagenjo/litegraph.js) - *A graph node editor similar to PureData or UDK Blueprints, it works in a HTML5 Canvas and allow to exported graphs to be included in applications.*
 
