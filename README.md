@@ -6,22 +6,24 @@ The objective of this project, is to implement an online interface that allows u
 
 All this project has been developed from the scratch using Bootstrap interface, without using any implemented template. In 'Info Panel' user also has the chance to download the current graph and load later to keep working or simply sare it with other people.
 
-###Interface Layout & Possible Final Visualization
+####Interface Layout & Possible Final Visualization
 
-![Interface Layout](imgs/Layout.PNG "Audio Visualizer Layout")
+![Interface Layout](imgs/Layout.png "Audio Visualizer Layout")
 
-![Possible Result](imgs/VisualResult.PNG "One possible result using this interface")
+![Possible Result](imgs/VisualResult.png "One possible result using this interface")
 
-## Examples
+Try the web application: [Audio Visualizer](https://edufarre.github.io/)
 
-### Using rotation and surface (as child) nodes
+### Examples
 
-![Simple Rotation Graph](imgs/Rotation.PNG "Simple Rotation Graph")
+#### Using rotation and surface (as child) nodes
+
+![Simple Rotation Graph](imgs/Rotation.png "Simple Rotation Graph")
 ![RotationGif](imgs/Hex_gif.gif "RotationGif")
 
-### Using audio features to change shape size
+#### Using audio features to change shape size
 
-![Simple Audio Graph](imgs/size.PNG "Simple Audio Graph")
+![Simple Audio Graph](imgs/size.png "Simple Audio Graph")
 ![SizeGif](imgs/bass_gif.gif "SizeGif")
 
 ## Known Issues
@@ -56,3 +58,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 
 * Thanks to my tutor who supported my during all the process and helps me with this personal project.
 * Inspiration: Mix all the audio concepts knowledge learnt during my degree with one of the most used technologies, web applications, using HTML, JavaScript and CSS programming langauges.
+
