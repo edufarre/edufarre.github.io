@@ -6,7 +6,7 @@ The objective of this project, is to implement an online interface that allows u
 
 All this project has been developed from the scratch using Bootstrap interface, without using any implemented template. In 'Info Panel' user also has the chance to download the current graph and load later to keep working or simply sare it with other people.
 
-####Interface Layout & Possible Final Visualization
+#### Interface Layout & Possible Final Visualization
 
 ![Interface Layout](imgs/Layout.png "Audio Visualizer Layout")
 
@@ -56,6 +56,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 
 ## Acknowledgments
 
-* Thanks to my tutor who supported my during all the process and helps me with this personal project.
+* Thanks to my tutor who supported my during all the process and helped me with this personal project.
 * Inspiration: Mix all the audio concepts knowledge learnt during my degree with one of the most used technologies, web applications, using HTML, JavaScript and CSS programming langauges.
 
