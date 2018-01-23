@@ -29,6 +29,7 @@ Try the web application: [Audio Visualizer](https://edufarre.github.io/)
 ## Known Issues
 
 * Not following the properly order of applying relations when loading a previously created graph (JSON file)
+* Can creat more than one audio node (should be unique)
 
 ## Future improvements
 
